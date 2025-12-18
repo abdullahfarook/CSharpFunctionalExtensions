@@ -2,7 +2,7 @@
   <Import Project="../Common.Build.props"/>
 
   <PropertyGroup>
-    <PackageId>CSharpFunctionalExtensions</PackageId>
+    <PackageId>DoMin.CSharpFunctionalExtensions</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(TargetFramework)'=='netstandard2.0'">
