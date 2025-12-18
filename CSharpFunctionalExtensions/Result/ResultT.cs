@@ -72,5 +72,8 @@ namespace CSharpFunctionalExtensions
             else
                 return UnitResult.Failure(result.Error);
         }
+        
+        public static implicit operator Result<T>(string value)
+            => Result.Failure<T>(value);
     }
 }

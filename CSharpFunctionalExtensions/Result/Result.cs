@@ -38,5 +38,7 @@ namespace CSharpFunctionalExtensions
             else
                 return UnitResult.Failure(result.Error);
         }
+        public static implicit operator Result(string value)
+            => Failure(value);
     }
 }
